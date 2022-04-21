@@ -399,10 +399,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     removepackages
