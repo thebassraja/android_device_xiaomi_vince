@@ -28,9 +28,11 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Lineage/crdroid Stuff
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BOOT_ANIMATION_RES := 720
+# RiceDroid Flags
+RICE_DEVICE := vince
+RICE_MAINTAINER := Anandhan
+SUSHI_BOOTANIMATION := 720
+TARGET_FACE_UNLOCK_SUPPORTED := true #if it's available
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
