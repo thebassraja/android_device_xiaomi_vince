@@ -31,6 +31,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # RiceDroid Flags
 RICE_DEVICE := vince
 RICE_MAINTAINER := Anandhan
+RICE_CHIPSET := Snapdragon®625
 SUSHI_BOOTANIMATION := 720
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
