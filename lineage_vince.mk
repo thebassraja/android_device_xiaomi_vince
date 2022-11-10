@@ -33,7 +33,7 @@ RICE_DEVICE := vince
 RICE_MAINTAINER := Anandhan
 SUSHI_BOOTANIMATION := 720
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
-TARGET_FACE_UNLOCK_SUPPORTED := true #if it's available
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
