@@ -35,6 +35,7 @@ RICE_CHIPSET := Snapdragon®625
 SUSHI_BOOTANIMATION := 720
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BUILD_APERTURE_CAMERA := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
