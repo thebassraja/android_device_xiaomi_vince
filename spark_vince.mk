@@ -28,6 +28,9 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit some common Spark-OS stuff.
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
+# Inherit extra stuff
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Spark flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 720
