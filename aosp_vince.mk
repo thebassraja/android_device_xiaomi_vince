@@ -28,6 +28,9 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Inherit extra stuff
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # PixelExperience specific flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
