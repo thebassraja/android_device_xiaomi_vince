@@ -78,11 +78,6 @@ TARGET_NO_BOOTLOADER := true
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 TARGET_TS_MAKEUP := true
 
-# API Override
-TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
-    /vendor/bin/mm-qcamera-daemon=27 \
-    /system/vendor/bin/mm-qcamera-daemon=27 \
-
 # CNE and DPM
 BOARD_USES_QCNE := true
 
