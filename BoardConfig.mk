@@ -171,9 +171,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
-# Thermal
-TARGET_THERMAL_HAL := true
-
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 BOARD_VNDK_VERSION := current
